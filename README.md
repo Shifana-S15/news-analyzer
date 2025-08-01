@@ -1,12 +1,12 @@
 # 📰 News Analyzer with Web Scraping, Sentiment & Translation
 
-A complete web application built using **Python**, **Streamlit**, and **NLP** techniques to scrape news articles, analyze them for sentiment, extract topics and keywords, and provide language translation — all in an interactive UI!
+A complete web application built using **Python**, **Streamlit**, and **NLP** techniques to scrape news articles, analyze them for sentiment, extract topics and keywords, Interactive Question and Answering about the news Article  and provide language translation — all in an interactive UI!
 
 ---
 
 ## 🎯 Key Features
 
-### 1. 📥 Web Scraping (`withscrapper.py`)
+### 1. 📥 Web Scraping (`scrapper.py`)
 - Scrapes articles from multiple online sources.
 - Extracts key metadata: **title**, **text**, **source**, **URL**, **published date**.
 - Stores results in a CSV file `articles.csv`.
@@ -26,13 +26,13 @@ A complete web application built using **Python**, **Streamlit**, and **NLP** te
 - Entity frequency count
 - Source-wise article breakdown
 
-### 4. 🌐 Language Translation 
+### 4. 🌐 Language Translation (translator.py)
 - Select an article title from dropdown
 - Choose any target language (over 50+ supported)
 - Click **"🔁 Translate Article"** to view full article translated
 - Powered by [Deep Translator](https://pypi.org/project/deep-translator/)
 
-### 5. 💡 Q&A Section 
+### 5. 💡 Q&A Section(qa_helper.py) 
 - Ask questions about the article content
 - Returns answers using extractive QA (based on transformers or keyword matching)
 
