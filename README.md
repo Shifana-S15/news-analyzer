@@ -49,7 +49,6 @@ A complete web application built using **Python**, **Streamlit**, and **NLP** te
 ### 🌐 Translation Feature  
 ![Translation Screenshot](screenshots/translation.png)
 
----
 ### ❓ Question Answering on News Articles
 ![Translation Screenshot](screenshots/qa.png)
 
