@@ -40,11 +40,13 @@ A complete web application built using **Python**, **Streamlit**, and **NLP** te
 
 ## 🖼️ Screenshots
 
+### 📈 News Scrapping  
+![Visual Screenshot](screenshots/scrapping.png)
+
 ### 🔍 Article Analysis Page  
 ![Analysis Screenshot](screenshots/analysis.png)
 
-### 📈 Data Visualizations  
-![Visual Screenshot](screenshots/visuals.png)
+
 
 ### 🌐 Translation Feature  
 ![Translation Screenshot](screenshots/translation.png)
