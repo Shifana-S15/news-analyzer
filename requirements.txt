@@ -1,0 +1,35 @@
+# ✅ Web App UI
+streamlit==1.30.0                # Used for frontend integration (streamlit UI)
+
+# ✅ Data Handling & Analysis
+pandas==2.2.2                    # Reading and writing CSV (articles.csv, enriched.csv)
+numpy==1.26.4                    # Used for array-based operations if needed
+
+# ✅ Web Scraping
+beautifulsoup4==4.12.3           # Extracting text/content from HTML pages (scrapper.py)
+requests==2.31.0                 # Sending HTTP requests to scrape news websites (scrapper.py)
+lxml==5.2.1                      # Faster parser for BeautifulSoup
+
+# ✅ Natural Language Processing (NLP)
+nltk==3.8.1                      # Used for stopword removal, tokenization
+spacy==3.7.4                     # Used for Named Entity Recognition (NER)
+regex==2024.5.15                # Handling advanced pattern matching in text processing
+
+# ✅ Visualization
+matplotlib==3.8.4                # Plotting charts like bar/pie if used in analysis
+seaborn==0.13.2                  # Heatmaps or advanced plots
+plotly==5.22.0                   # Interactive charts in Streamlit (optional)
+altair==5.3.0                    # Lightweight plotting (for optional visualizations)
+
+# ✅ Translation
+deep-translator==1.11.4          # Language translation feature (translate.py)
+
+# ✅ Machine Learning (Optional Sentiment/Topic Analysis)
+scikit-learn==1.4.2              # TF-IDF, clustering, or sentiment classifiers
+
+# ✅ Optional: Q&A Feature (if used Hugging Face transformer models)
+transformers==4.43.1             # Pretrained transformer models for Q&A
+torch==2.3.0                     # Required backend for transformers
+
+# ✅ Misc
+pyyaml==6.0.1                    # Optional: For config or caching in Streamlit apps
